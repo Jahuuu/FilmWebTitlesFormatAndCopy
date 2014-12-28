@@ -9,6 +9,7 @@
 // @downloadURL https://greasyfork.org/scripts/7205-filmwebtitlesformatandcopy/code/FilmWebTitlesFormatAndCopy.user.js
 // @grant       none
 // ==/UserScript==
+
 var elements = document.getElementsByClassName('inline filmTitle');
 var output1 = document.getElementById("sidebar");
 for (var i = 0; i < elements.length; i++) {
