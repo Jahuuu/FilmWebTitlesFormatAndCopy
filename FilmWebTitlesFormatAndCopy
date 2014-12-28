@@ -2,7 +2,7 @@
 // @name        FilmWebTitlesFormatAndCopy
 // @namespace   jahuu.info
 // @author      Jahuu
-// @description Prosty skrypt do sformatowania i praygotowania tytułu filmu do skopiowania - używam do spójnego nazywania filmów w swojej kolekcji. / Simple script, to format and prepare to copy title of movie.
+// @description Prosty skrypt do sformatowania i przygotowania tytułu filmu do skopiowania - używam do spójnego nazywania filmów w swojej kolekcji. / Simple script, to format and prepare to copy title of movie.
 // @include     *filmweb.pl*
 // @version     0.9
 // @grant       none
