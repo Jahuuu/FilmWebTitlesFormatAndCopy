@@ -4,7 +4,7 @@
 // @author      Jahuu
 // @description Prosty skrypt do sformatowania i przygotowania tytułu filmu do skopiowania - używam do spójnego nazywania filmów w swojej kolekcji. / Simple script, to format and prepare to copy title of movie.
 // @include     *filmweb.pl*
-// @version     0.9
+// @version     0.9.1
 // @updateURL   https://greasyfork.org/scripts/7205-filmwebtitlesformatandcopy/code/FilmWebTitlesFormatAndCopy.meta.js
 // @downloadURL https://greasyfork.org/scripts/7205-filmwebtitlesformatandcopy/code/FilmWebTitlesFormatAndCopy.user.js
 // @grant       none
@@ -23,7 +23,8 @@ var elements = document.getElementsByClassName('halfSize');
 for (var i = 0; i < elements.length; i++) {
  var elementWithDate = elements[i].innerHTML;
 }
-var date = elementWithDate.slice(0,6);
+var pos2Date = elementWithDate.indexOf(')')+1;
+var date = elementWithDate.slice(0,pos2Date);
 
 var elements = document.getElementsByClassName('s-42 vertical-align light');
 for (var i = 0; i < elements.length; i++) {
